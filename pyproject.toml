@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "superjobparsing"
+version = "0.1.0"
+description = ""
+authors = ["komediantto <komediantto@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+httpx = "^0.26.0"
+scrapy = "^2.11.1"
+pydantic = "^2.6.1"
+pydantic-settings = "^2.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
